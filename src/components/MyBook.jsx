@@ -1,5 +1,5 @@
 import HTMLFlipBook from "react-pageflip";
-import Page from "./page";
+import Page from "./Page.jsx";
 import Cover from "./pages/Cover/Cover";
 import coverImg from "../assets/cover.png";
 import coverBackImg from "../assets/coverback.png";
