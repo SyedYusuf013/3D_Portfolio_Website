@@ -4,7 +4,7 @@ import personImg from "../../../assets/person2.png";
 const FirstPage = () => {
   return (
     <div className="h-full">
-      <main className="h-full w-full bg-secondary page-shadow">
+      <main className="w-full h-full bg-secondary page-shadow">
         <div className="p-10 space-y-4">
           {/* image-container */}
           <div>
@@ -14,10 +14,10 @@ const FirstPage = () => {
           <div>
             <div className="space-y-3">
               <p className="uppercase">Hello!</p>
-              <p className="text-4xl md:text-6xl font-bold text-black/80">
+              <p className="text-4xl font-bold md:text-6xl text-black/80">
                 I'm Syed F Yusuf
               </p>
-              <p className="text-black/75 text-left text-2xl">
+              <p className="text-2xl text-left text-black/75">
                 Frontend Developer
               </p>
               <p className="text-black/75">
@@ -27,7 +27,7 @@ const FirstPage = () => {
                 projects and growing in a dynamic, collaborative environment.
               </p>
               <a
-                className=" inline-block primary-btn"
+                className="inline-block  primary-btn"
                 href="mailto:syedfayequeuddinyusuf@gmail.com"
               >
                 {" "}
