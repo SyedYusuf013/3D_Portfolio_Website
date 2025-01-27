@@ -68,7 +68,7 @@ const About = () => {
             href="tel:+971 8448266069"
             className="transition-all duration-500 outline-btn hover:scale-105"
           >
-            Contact
+            Contact 
           </a>
         </div>
       </div>
