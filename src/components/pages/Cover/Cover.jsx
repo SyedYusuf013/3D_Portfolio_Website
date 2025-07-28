@@ -10,9 +10,9 @@ const Cover = ({ coverImg, title }) => {
   };
 
   return (
-    <div className="h-full" style={coverImgStyle}>
+    <div className="w-full h-full overflow-hidden" style={coverImgStyle}>
       <div className="flex items-center justify-center h-full page-shadow">
-        <h1 className="text-5xl font-bold text-primary font-outline-2">
+        <h1 className="w-4/5 pl-10 text-4xl font-bold text-center md:text-5xl text-primary font-outline-2">
           {title}
         </h1>
       </div>

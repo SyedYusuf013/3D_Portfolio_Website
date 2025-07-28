@@ -11,23 +11,25 @@ const FirstPage = () => {
             <img src={personImg} alt="" className="w-[300px] mx-auto" />
           </div>
           {/* text-container */}
-          <div>
+          <div className="text-sharp">
             <div className="space-y-3">
               <p className="uppercase">Hello!</p>
               <p className="text-4xl font-bold md:text-6xl text-black/80">
                 I'm Syed F Yusuf
               </p>
               <p className="text-2xl text-left text-black/75">
-                Frontend Developer
+                MERN Stack Developer
               </p>
               <p className="text-black/75">
-                Seeking an entry-level Frontend Developer position to leverage
-                expertise in HTML, CSS, JavaScript, ReactJS, TailwindCSS, and
-                modern web technologies, while contributing to innovative
-                projects and growing in a dynamic, collaborative environment.
+                Self-driven and detail-oriented Full Stack Developer with around
+                1 year of experience launching and leading a web development
+                startup. Skilled in React.js, Node.js, MongoDB, and REST APIs,
+                with hands-on experience in building responsive, user-focused
+                applications from scratch. I’m excited to use both my technical
+                skills and the experience I gained.
               </p>
               <a
-                className="inline-block  primary-btn"
+                className="inline-block primary-btn"
                 href="mailto:syedfayequeuddinyusuf@gmail.com"
               >
                 {" "}
