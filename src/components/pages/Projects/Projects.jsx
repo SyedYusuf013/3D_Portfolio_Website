@@ -8,9 +8,7 @@ const Projects = ({ ProjectData }) => {
       {/* Heading */}
       <Heading
         title="Projects"
-        subtitle="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique
-          dolor doloremque corrupti veritatis, a maxime soluta exercitationem
-          minima autem asperiores praesentium cumque laudantium qui perferendis?"
+        subtitle="Dive into a selection of full-stack web applications built using the MERN stack (MongoDB, Express.js, React, Node.js). These projects highlight my ability to create responsive frontends, build RESTful APIs, and manage backend logic — delivering complete, real-world solutions with clean UI and robust functionality."
       />
 
       {/* Projects Section */}

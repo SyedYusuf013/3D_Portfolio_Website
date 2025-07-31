@@ -4,11 +4,11 @@ import Heading from "../../HelperComp/Heading";
 
 const Services = () => {
   return (
-    <div className="h-full p-10 bg-white page-shadow">
+    <div className="h-full p-6 bg-white md:p-10 page-shadow">
       {/* Heading */}
-      <Heading
+      <Heading 
         title="Technology"
-        subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, inventore hic eveniet illum magnam a iusto nulla suscipit quos cumque sunt accusamus blanditiis ipsam eum."
+        subtitle="I have hands-on experience across multiple areas of web development, from crafting responsive user interfaces to building robust server-side logic and managing scalable databases. I specialize in the MERN stack and love turning ideas into full-fledged applications."
       />
       {/* Services Card */}
       <div>

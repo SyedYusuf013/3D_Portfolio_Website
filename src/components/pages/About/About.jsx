@@ -5,70 +5,75 @@ import Heading from "../../HelperComp/Heading";
 
 const About = () => {
   return (
-    <div className="h-full p-10 bg-white page-shadow">
+    <div className="h-full p-6 bg-white md:p-10 page-shadow">
       {/* Heading */}
       <Heading
         title="About"
-        subtitle="Lorem ipsum dolor sit amet cousto nulla suscipit quos cumque sunt accusamus blanditiis ipsam eum."
+        subtitle="I'm a dedicated web developer with expertise in building responsive, scalable, and user-centric applications using modern JavaScript frameworks. I enjoy solving complex problems and continuously evolving in this fast-paced tech landscape."
       />
 
       {/* Details */}
-      <div className="mt-10 text-slate-500">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
-          similique. Ducimus aliquam, accusamus porro velit recusandae rem
-          eligendi repellat molestiae corporis nostrum fuga voluptates ipsum.
-        </p>{" "}
+      <div className="mt-6 mb-6 text-sm md:text-base md:mt-10 text-slate-500 text-sharp">
+        <li>
+          I'm a passionate web developer focused on building responsive and
+          scalable applications using modern JavaScript frameworks.
+        </li>{" "}
         <br />
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi
-          debitis quidem voluptates, ipsum animi in!
-        </p>
+        <li>
+          With a solid understanding of both frontend and backend technologies,
+          I take pride in creating solutions that are clean, functional, and
+          user-centric.
+        </li>{" "}
+        <br /> 
+        <li>
+          I thrive on solving complex problems and constantly expanding my
+          skills to stay ahead in this fast-paced industry.
+        </li>
         {/* Social Links */}
-        <div className="flex mt-10 space-x-4">
+        <div className="flex mt-3 space-x-4 md:mt-10">
           <a
-            href="https://www.facebook.com/"
+            href="https://www.facebook.com/syed.yusuf511/"
             target="_blank"
             aria-label="Facebook"
           >
-            <MdFacebook className="transition-all duration-500 social-btn hover:scale-105" />
+            <MdFacebook className="text-3xl duration-500 transtion-all md:social-btn hover:scale-105" />
           </a>
           <a
-            href="https://www.instagram.com/"
+            href="https://www.instagram.com/syedfyusuf09/"
             target="_blank"
             aria-label="Instagram"
           >
-            <AiFillInstagram className="transition-all duration-500 social-btn hover:scale-105" />
+            <AiFillInstagram className="text-3xl transition-all duration-500 md:social-btn hover:scale-105" />
           </a>
           <a
             href="https://github.com/SyedYusuf013"
             target="_blank"
             aria-label="Github"
           >
-            <AiFillGithub className="transition-all duration-500 social-btn hover:scale-105" />
+            <AiFillGithub className="text-3xl transition-all duration-500 md:social-btn hover:scale-105" />
           </a>
           <a
             href="https://www.linkedin.com/in/syed-yusuf-859a82220/"
             target="_blank"
             aria-label="LinkedIn"
           >
-            <AiFillLinkedin className="transition-all duration-500 social-btn hover:scale-105" />
+            <AiFillLinkedin className="text-3xl transition-all duration-500 md:social-btn hover:scale-105" />
           </a>
         </div>
         {/* Button links */}
-        <div className="flex mt-4 space-x-4">
+        <div className="flex space-x-4 md:mt-4">
           <a
-            href="file:///C:/Users/syedf/Downloads/Admin/Syed_Resume%20(1).pdf"
+            href="https://drive.google.com/file/d/1cIdBs61BCpSqZ4K_qPP4XZII7tj8xxN8/view?usp=drive_link"
             target="_blank"
             className="transition-all duration-500 primary-btn hover:scale-105"
           >
             Download Resume
           </a>
           <a
-            href="tel:+971 8448266069"
+            href="tel:+91 8448266069"
             className="transition-all duration-500 outline-btn hover:scale-105"
           >
-            Contact 
+            Contact
           </a>
         </div>
       </div>
